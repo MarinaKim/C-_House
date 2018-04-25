@@ -1,0 +1,10 @@
+Ivanov P.K. 123 12 Mersedez 1999 250000
+Petrov K.K. 345 8 Mersedez 1998 468300
+Sidorov P.M. 456 47 Mersedez 2000 135800
+Krylov M.K. 789 89 Mersedez 2001 964200
+Asanov P.T. 873 120 Mersedez 2006 653300
+Bakimov Y.K. 479 65 Mersedez 2004 679500
+Potapov P.O. 158 118 Mersedez 2000 246200
+Limonov N.K. 593 87 Mersedez 2007 754200
+Ospanov P.E. 487 12 Mersedez 2015 456700
+Gerts L.K. 378 12 Mersedez 2016 25780
