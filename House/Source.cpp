@@ -40,14 +40,62 @@ int main()
 			<< h[k].getRoomNum() << "\t" << h[k].getArea() << endl;}
 
 	int l;
+	int count;
 	cout <<"Enter the item: ";
 	cin >> l;
 
 	switch (l) {
 
 	case 1: {
-		
+		/*system("cls");*/
+		cout << "-------------------------------------------------------------------------------" << endl;
+
+		cout << "Enter a count of rooms:";
+		cin >> count;
+
+		for (int i = 0; i < 10; i++) {
+			if (h[i].getRoomNum() == count) {
+				cout << h[i].getReg_no() << "\t" << h[i].getStreet() << "\t"
+					<< h[i].getHouseNum() << "\t" << h[i].getFloor() << "\t"
+					<< h[i].getRoomNum() << "\t" << h[i].getArea() << endl;
+			}}		
 	}break;
+	case 2: {
+		/*system("cls");*/
+		cout << "-------------------------------------------------------------------------------" << endl;
+
+		int start, end;
+		cout << "Enter a count of rooms:";
+		cin >> count;
+		cout << "Enter start of floor:";
+		cin >> start;
+		cout << "Enter end of floor:";
+		cin >> end;
+		for (int i = 0; i < 10; i++) {
+			if (h[i].getRoomNum() == count&&h[i].getFloor()>=start&&h[i].getFloor()<=end) {
+				cout << h[i].getReg_no() << "\t" << h[i].getStreet() << "\t"
+					<< h[i].getHouseNum() << "\t" << h[i].getFloor() << "\t"
+					<< h[i].getRoomNum() << "\t" << h[i].getArea() << endl;
+			}
+		}
+	}break;
+
+	case 3: {
+		/*system("cls");*/
+		cout << "-------------------------------------------------------------------------------" << endl;
+		cout << "Enter an area:";
+		cin >> count;
+
+		for (int i = 0; i < 10; i++) {
+			if (h[i].getArea() > count) {
+				cout << h[i].getReg_no() << "\t" << h[i].getStreet() << "\t"
+					<< h[i].getHouseNum() << "\t" << h[i].getFloor() << "\t"
+					<< h[i].getRoomNum() << "\t" << h[i].getArea() << endl;
+			}
+		}
+	}break;
+
+
 	}
 
 	system("pause");
