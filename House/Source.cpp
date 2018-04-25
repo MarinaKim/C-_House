@@ -39,8 +39,11 @@ int main()
 			}}
 
 		for (int k = 0; k < 10; k++) {
-			cout << h[k].getReg_no<<h[k].getStreet<<h[k].getHouseNum<<h[k].getFloor<<h[k].getRoomNum<<h[k].getArea<< endl;
+			cout << h[k].getReg_no()<<h[k].getStreet()<<h[k].getHouseNum()<<h[k].getFloor()<<h[k].getRoomNum()<<h[k].getArea()<< endl;
 		}
 	}break;
 	}
+
+	system("pause");
+	return 0;
 }
