@@ -111,8 +111,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="House.h" />
+    <ClInclude Include="Library.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Methods.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

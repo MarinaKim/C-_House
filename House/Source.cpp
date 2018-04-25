@@ -4,13 +4,10 @@ a) список квартир, имеющих заданное число комнат;
 b) список квартир, имеющих заданное число комнат, и расположенных на этаже, который находитс€ в заданном промежутке;
 c) список квартир, имеющих площадь, превосход€щую заданную.
 */
-#include <iostream>
-#include<string>
-#include<ctime>
-#include<fstream> // библиотека работы с файлами
+// библиотека работы с файлами
+
 #include"House.h"
 
-using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "");
@@ -88,10 +85,12 @@ int main()
 
 		for (int i = 0; i < 10; i++) {
 			if (h[i].getArea() > count) {
+				
 				cout << h[i].getReg_no() << "\t" << h[i].getStreet() << "\t"
 					<< h[i].getHouseNum() << "\t" << h[i].getFloor() << "\t"
 					<< h[i].getRoomNum() << "\t" << h[i].getArea() << endl;
 			}
+			
 		}
 	}break;
 
